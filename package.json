@@ -1,0 +1,51 @@
+{
+  "name": "web-login-oauth-detector",
+  "version": "1.0.0",
+  "description": "웹사이트 로그인 감지 및 OAuth 검증 자동화 도구",
+  "main": "index.js",
+  "bin": {
+    "login-detector": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "popup": "node popup-detector.js",
+    "oauth": "node oauth-detector-complete.js",
+    "debug": "node debug-aiven.js",
+    "test": "node test-cases.js",
+    "install-browsers": "npx playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0",
+    "commander": "^11.0.0",
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  },
+  "keywords": [
+    "oauth",
+    "login-detection",
+    "web-scraping",
+    "playwright",
+    "automation",
+    "security-testing",
+    "popup-detection"
+  ],
+  "author": "Web Security Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/web-login-oauth-detector.git"
+  },
+  "files": [
+    "index.js",
+    "popup-detector.js",
+    "oauth-detector-complete.js",
+    "bin/",
+    "lib/",
+    "README.md"
+  ]
+}

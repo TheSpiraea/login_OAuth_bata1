@@ -1,0 +1,30 @@
+{
+  "name": "web-login-oauth-detector",
+  "version": "1.0.0",
+  "description": "완전한 웹 로그인 감지 및 OAuth 검증 시스템",
+  "main": "oauth-detector-complete.js",
+  "scripts": {
+    "start": "node oauth-detector-complete.js",
+    "test": "node test-cases.js",
+    "dev": "node oauth-detector-complete.js --headless=false"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  },
+  "keywords": [
+    "oauth",
+    "login-detection", 
+    "web-scraping",
+    "playwright",
+    "automation",
+    "security-testing"
+  ],
+  "author": "AWS Q Assistant",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
